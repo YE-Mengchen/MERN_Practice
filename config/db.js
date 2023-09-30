@@ -1,11 +1,13 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 const config = require('config');
 const db = config.get('mongoURI');
 
 
+
 const connectDB = async () =>{
     try{
-        mongoose.connect(db);
+        mongoose.connect(process.env.DATABASE_URL);
         console.log('MongooDB connected...');
     }
     catch(err){
