@@ -1,0 +1,4 @@
+{
+    "DATABASE_URL": "mongodb+srv://yemengchen4371:nF16raY6oLQ3ny7O@devconnector.sxur0fu.mongodb.net/",
+    "JWTSECRET": "mysecrettoken"
+  }
